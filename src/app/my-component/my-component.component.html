@@ -1,0 +1,4 @@
+<li *ngFor="let drink of drinks$ | async">
+    {{ drink.strDrink }}
+</li>
+<button (click)="onClick()">filtro</button>
